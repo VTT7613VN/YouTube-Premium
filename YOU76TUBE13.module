@@ -22,7 +22,7 @@ AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext _ 302
 # ======= General Video Ad request ======= #
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
-^https:\/\/youtubei\.googleapis\.com\/(youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch))(\?(.*))?${{{Yêu Cầu Dịch Vụ Xử Lý}}}$1?blockUpload={{{Ẩn Nút Tải Lên}}}&blockImmersive={{{Nút Chọn Khối}}}&blockShorts={{{Ẩn Nút Shorts}}}&captionLang={{{Cài Phụ Đề}}}&lyricLang={{{歌词翻译语言}}}&$4 307
+^https:\/\/youtubei\.googleapis\.com\/(youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch))(\?(.*))?${{{Yêu Cầu Dịch Vụ Xử Lý}}}$1?blockUpload={{{Ẩn Nút Tải Lên}}}&blockImmersive={{{Nút Chọn Khối}}}&blockShorts={{{Ẩn Nút Shorts}}}&captionLang={{{Cài Phụ Đề}}}&lyricLang={{{歌词翻译语言}}}_ 307
 
 
 [Map Local]

@@ -2,6 +2,7 @@
 #!desc=Lite with little memory (Experimental)
 #!desc=Youtube Ad Full blocker with PIP player
 #!arguments=Yêu Cầu Dịch Vụ Xử Lý:https://stream.maasea.workers.dev,Ẩn Nút Tải Lên:true, Nút Chọn Khối:true,Ẩn Nút Shorts:false,Cài Phụ Đề:off,歌词翻译语言:off
+#!arguments-desc=🇮🇩：[true, false] \🤣：[语言代码, off] \n\n1. 语言代码遵循 Google Translate Languages Codes, 当填入 off 时关闭翻译
 
 
 

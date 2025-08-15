@@ -1,10 +1,8 @@
 #!name=YOU76TUBE13
-#!desc=Lite with little memory (Experimental)
+#!desc=Tùy chỉnh nút
 #!desc=Youtube Ad Full blocker with PIP player
 #!arguments=Yêu Cầu Dịch Vụ Xử Lý:https://stream.maasea.workers.dev,Ẩn Nút Tải Lên:true, Nút Chọn Khối:true,Ẩn Nút Shorts:false,Cài Phụ Đề:off,歌词翻译语言:off
-#!arguments-desc=🇷🇺: ru	🇩🇪: de	🇮🇹: it 🇵🇹: pt	🇻🇳: vi	🇨🇳: zh\n🇯🇵: ja	🇰🇷:ko	🇦🇪:ef 🥰: hi	🇮🇩: id	🇹🇭:th\n🇬🇧:en	🇪🇸:es	🇫🇷:fr Kí hiệu phụ đề các nước\n1. 语言代码遵循 Google Translate Languages Codes, 当填入 off 时关闭翻译
-
-
+#!arguments-desc=🇷🇺: ru	🇩🇪: de	🇮🇹: it 🇵🇹: pt	🇻🇳: vi	🇨🇳: zh\n🇯🇵: ja	🇰🇷:ko	🇦🇪:ef 🥰: hi	🇮🇩: id	🇹🇭:th\n🇬🇧:en	🇪🇸:es	🇫🇷:fr Kí hiệu phụ đề các nước\n.        VIẾT LẠI BỞI DEV7613VN
 
 
 # Origin Author: @DivineEngine, @app2smile, @Maasea, @VirgilClyne

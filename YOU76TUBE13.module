@@ -1,6 +1,8 @@
 #!name=YOU76TUBE13
+#!desc=Lite with little memory (Experimental)
 #!desc=Youtube Ad Full blocker with PIP player
-#!arguments=captionLang:off, lyricLang:off, blockUpload:true, blockImmersive:true, blockShorts:true, debug:true
+#!arguments=Yêu Cầu Dịch Vụ Xử Lý:https://stream.maasea.workers.dev,Ẩn Nút Tải Lên:true, Nút Chọn Khối:true,Ẩn Nút Shorts:false,Cài Phụ Đề:hjh?jdufj,歌词翻译语言:off
+#!arguments-desc=- 屏蔽参数：[true, false] \n- 翻译参数：[语言代码, off] \n\n1. 语言代码遵循 Google Translate Languages Codes, 当填入 off 时关闭翻译
 # Origin Author: @DivineEngine, @app2smile, @Maasea, @VirgilClyne
 # Other hints: @Choler, @bai1zi
 # Merged and released by @ddgksf2013 in form of qx
@@ -20,6 +22,8 @@ AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
 ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext _ 302
 # ======= General Video Ad request ======= #
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
+^https:\/\/youtubei\.googleapis\.com\/(youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch))(\?(.*))?$ {{{Yêu Cầu Dịch Vụ Xử Lý}}}/$1?blockUpload={{{Ẩn Nút Tải Lên}}}&blockImmersive={{{Nút Chọn Khối}}}&blockShorts={{{Ẩn Nút Shorts}}}&captionLang={{{Cài Phụ Đề}}}&lyricLang={{{歌词翻译语言}}}&$4 307
+
 
 [Map Local]
 ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad data-type=text data="" status-code=200

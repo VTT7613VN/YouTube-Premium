@@ -1,4 +1,4 @@
-# Shadowrocket: 2025-08-22 09:13:18
+# Shadowrocket: 2-08-22 09:13:18
 [Rule]
 AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
 AND,((DOMAIN,youtubei.googleapis.com), (PROTOCOL,UDP)),REJECT
